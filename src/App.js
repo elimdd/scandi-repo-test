@@ -1,68 +1,21 @@
-import logo from './logo.svg'
+import Logo from './Logo'
+import Pages from './Pages'
+import Currency from './Currency'
+import Bag from './Bag'
+import Products from './Products'
 import './App.css'
 
 function App() {
   return (
     <div className="background">
       <header className="nav-header">
-        <span cassName="navLeftButtons">
-          <button className="navNameTags">
-            <a href="/">Women</a>
-          </button>
-          <button className="navNameTags">
-            <a href="/">Men</a>
-          </button>
-          <button className="navNameTags">
-            <a href="/">Kids</a>
-          </button>
-        </span>
-        <span>
-          <img src={logo} className="app-logo-top" alt="logo" />
-        </span>
-        <span className="navRightButtons">
-          <button className="navNameTags">
-            <a href="/">$</a>
-          </button>
-          <button className="navNameTags">
-            <a href="/">Bag</a>
-          </button>
-        </span>
+        <Pages />
+        <Logo />
+        <Currency />
+        <Bag />
       </header>
       <section>
-        <div>
-          <button>
-            <img src={logo} className="app-logo" alt="logo" />
-            <div>Blouse</div>
-            <div>Price tag</div>
-          </button>
-          <button>
-            <img src={logo} className="app-logo" alt="logo" />
-            <div>Sunglasses</div>
-            <div>Price tag</div>
-          </button>
-          <button>
-            <img src={logo} className="app-logo" alt="logo" />
-            <div>Purse</div>
-            <div>Price tag</div>
-          </button>
-        </div>
-        <div>
-          <button>
-            <img src={logo} className="app-logo" alt="logo" />
-            <div>Shirt</div>
-            <div>Price tag</div>
-          </button>
-          <button>
-            <img src={logo} className="app-logo" alt="logo" />
-            <div>T-shirt</div>
-            <div>Price tag</div>
-          </button>
-          <button>
-            <img src={logo} className="app-logo" alt="logo" />
-            <div>T-shirt</div>
-            <div>Price tag</div>
-          </button>
-        </div>
+        <Products />
       </section>
     </div>
   )

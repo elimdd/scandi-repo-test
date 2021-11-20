@@ -1,0 +1,9 @@
+.images {
+  background-color: #fff;
+  border: #fff;
+}
+
+.images:hover {
+  background-color: black;
+  cursor: pointer;
+}
