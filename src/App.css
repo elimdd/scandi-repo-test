@@ -1,19 +1,38 @@
-.background {
+body {
+  width: 1300px;
+  height: 1300px;
   text-align: center;
-  width: 1440px;
-  height: 1513px;
 }
 
-.app-logo-top {
-  width: 35px;
+.sideA {
+  width: 180px;
+  float: left;
+  padding-left: 100px;
+}
+
+.sideB {
+  width: 180px;
+  float: right;
+  padding-right: 50px;
 }
 
 .nav-header {
   background-color: #fff;
-  display: block;
   color: white;
-  width: 1440px;
-  height: 80px;
+  width: 1300px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  position: fixed;
+}
+
+.background {
+  text-align: center;
+  padding-top: 130px;
+}
+
+.app-logo-top {
+  margin-top: 20px;
+  width: 40px;
 }
 
 .navButtons {
@@ -25,7 +44,7 @@
 .navButtons:hover {
   cursor: pointer;
   border-bottom: 5px solid #5ece7b;
-  padding-bottom: 15px;
+  padding-bottom: 25px;
 }
 
 a {

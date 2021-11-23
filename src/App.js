@@ -7,17 +7,21 @@ import './App.css'
 
 function App() {
   return (
-    <div className="background">
+    <body>
       <header className="nav-header">
-        <Pages />
+        <span className="sideA">
+          <Pages />
+        </span>
         <Logo />
-        <Currency />
-        <Bag />
+        <span className="sideB">
+          <Currency />
+          <Bag />
+        </span>
       </header>
-      <section>
+      <section className="background">
         <Products />
       </section>
-    </div>
+    </body>
   )
 }
 

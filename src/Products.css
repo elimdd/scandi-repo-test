@@ -1,9 +1,21 @@
 .images {
   background-color: #fff;
   border: #fff;
+  width: 350px;
 }
 
 .images:hover {
-  background-color: black;
+  background-color: #fff;
   cursor: pointer;
+  width: 400px;
+  border-bottom: 3px solid black;
+  border-right: 3px solid black;
+}
+
+img {
+  width: 200px;
+}
+
+img:hover {
+  width: 350px;
 }
