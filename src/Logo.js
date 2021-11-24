@@ -1,6 +1,6 @@
 import React from 'react'
 
-import logo_green from './logo_green.png'
+import logo_green from './imgs/logo_green.png'
 
 export default function Logo() {
   return (
