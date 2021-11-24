@@ -14,35 +14,65 @@ export default function Products() {
     <section>
       <div>
         <button className="images">
-          <img src={sebastian} alt="product" width="350px" />
-          <div>Blouse</div>
-          <div>Price tag</div>
-        </button>
-        <button className="images">
-          <img src={alex} alt="product" width="350px" />
+          <img
+            className="imgs-products"
+            src={sebastian}
+            alt="Product Brown Sunglasses"
+            width="350px"
+          />
           <div>Sunglasses</div>
           <div>Price tag</div>
         </button>
         <button className="images">
-          <img src={bianca} alt="product" width="350px" />
-          <div>Purse</div>
+          <img
+            className="imgs-products"
+            src={alex}
+            alt="Product Black T-shirt"
+            width="350px"
+          />
+          <div>T-shirt</div>
+          <div>Price tag</div>
+        </button>
+        <button className="images">
+          <img
+            className="imgs-products"
+            src={bianca}
+            alt="Product white Blouse"
+            width="350px"
+          />
+          <div>Blouse</div>
           <div>Price tag</div>
         </button>
       </div>
       <div>
         <button className="images">
-          <img src={drop} alt="product" width="350px" />
+          <img
+            className="imgs-products"
+            src={drop}
+            alt="Product White T-shirt "
+            width="350px"
+          />
+          <div>T-shirt</div>
+          <div>Price tag</div>
+        </button>
+        <button className="images">
+          <img
+            className="imgs-products"
+            src={irene}
+            alt="Product Brown Purse"
+            width="350px"
+          />
+          <div>Purse</div>
+          <div>Price tag</div>
+        </button>
+        <button className="images">
+          <img
+            className="imgs-products"
+            src={nimble}
+            alt="Product Formal Shirt"
+            width="350px"
+          />
           <div>Shirt</div>
-          <div>Price tag</div>
-        </button>
-        <button className="images">
-          <img src={irene} alt="product" width="350px" />
-          <div>T-shirt</div>
-          <div>Price tag</div>
-        </button>
-        <button className="images">
-          <img src={nimble} alt="product" width="350px" />
-          <div>T-shirt</div>
           <div>Price tag</div>
         </button>
       </div>

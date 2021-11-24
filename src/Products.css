@@ -12,10 +12,10 @@
   border-right: 3px solid black;
 }
 
-img {
+.imgs-products {
   width: 200px;
 }
 
-img:hover {
+.imgs-products:hover {
   width: 350px;
 }
