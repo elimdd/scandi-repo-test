@@ -7,7 +7,7 @@ import './App.css'
 
 function App() {
   return (
-    <body>
+    <div>
       <header className="nav-header">
         <span className="sideA">
           <Pages />
@@ -21,7 +21,7 @@ function App() {
       <section className="background">
         <Products />
       </section>
-    </body>
+    </div>
   )
 }
 
